@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LorentzParticleOscillator : MonoBehaviour {
-	public float charge, maxElectricField, magneticField;
+	public float maxElectricField, magneticField;
 	public float electricField, frequency;
 	public int maxParticles;
 	public bool changeAllParticles;
@@ -14,7 +14,6 @@ public class LorentzParticleOscillator : MonoBehaviour {
 		electricField = maxElectricField*Mathf.Sin(Time.time*frequency);
 		if(changeAllParticles==true) {
 		foreach(LorentzForceParticle particle in ParticleManager.instance.particleList) {
-			particle.charge = charge;
 			particle.electricField = electricField;
 			particle.magneticField = magneticField;
 		}
