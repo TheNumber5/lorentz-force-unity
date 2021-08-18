@@ -1,5 +1,6 @@
 # Description
 A method for simulating the Lorentz Force on charged particles in Unity.
+
 The Lorentz Force is a well-known force in physics, it shows that if a charged particle is in a electric field it will move, and if the particle is in a magnetic field its trajectory will be changed.
 
 ![Eqn](https://user-images.githubusercontent.com/30901594/129890404-b572adde-6dbe-45d4-9454-9b57653fb8f0.png)
