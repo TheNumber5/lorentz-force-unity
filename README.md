@@ -10,3 +10,9 @@ The Sample Scene.unitypackage file, when imported to any Unity version after and
 Each particle must have the LorentzForceParticle.cs script attached to it. A game object that will be the simulation manager in this case needs to be created, where the ParticleManager.cs and the LorentzParticleOscillator.cs scripts need to be attached.
 
 # Videos 
+
+https://user-images.githubusercontent.com/30901594/129895315-ea1883c9-f365-4f31-bb0d-addba6e54d49.mp4
+
+https://user-images.githubusercontent.com/30901594/129895683-248ed76d-a866-4cb8-bb5a-ac0d70a28826.mp4
+
+https://user-images.githubusercontent.com/30901594/129896080-388a53c5-530b-476f-9401-7e84ef27f3a2.mp4
