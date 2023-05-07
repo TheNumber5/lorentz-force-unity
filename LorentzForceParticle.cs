@@ -12,7 +12,7 @@ public class LorentzForceParticle : MonoBehaviour {
 		ParticleManager.instance.particleList.Add(this);
 	}
 	void FixedUpdate() {
-		Vector3 magneticVector = new Vector3(xM*magneticField, yM*magneticField, zM*magneticField);
+		Vector3 magneticVector = new Vector3(xM, yM, zM)*magneticField;
 		Vector3 lorentzForce = new Vector3(xE, yE, zE)*charge*electricField+charge*Vector3.Cross(particleRigidbody.velocity, magneticVector);
 		particleRigidbody.AddForce(lorentzForce*Time.deltaTime, ForceMode.Impulse);
 	}
